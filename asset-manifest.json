@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/100jours/static/css/main.e6c13ad2.css",
+    "main.js": "/100jours/static/js/main.574ee362.js",
+    "static/media/denim.png": "/100jours/static/media/denim.31f9a4a8cf5aa924cd34.png",
+    "static/media/yaaay.png": "/100jours/static/media/yaaay.39c67d2cbd436604472c.png",
+    "index.html": "/100jours/index.html",
+    "main.e6c13ad2.css.map": "/100jours/static/css/main.e6c13ad2.css.map",
+    "main.574ee362.js.map": "/100jours/static/js/main.574ee362.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.574ee362.js"
+  ]
+}
