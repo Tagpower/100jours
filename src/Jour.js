@@ -17,7 +17,6 @@ class Jour extends React.Component {
               </div>
               <div className="front">
                 <div className="front-content">
-                  <small className="badge">Ellora</small>
                   <div className="description">
                     <div className="title">
                       <p className="title">

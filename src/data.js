@@ -1,37 +1,26 @@
-var allItems = [
-  {
-    title: "100",
-    num: 100,
-    cardTitle: "22 dec 2024",
-    cardSubtitle : "bla",
-    cardDetailedText: "bloqwgbiobgiowbgoasg",
+function buildItem(num, media) {
+  var date= new Date("2025-04-01");
+  date.setDate(date.getDate()-num);
+
+  return {
+    num: num,
+    date: date,
+    locked: (new Date() < date),
+    cardTitle: date.toLocaleDateString() + " - Encore " + num + " jours !" ,
     media: {
       type: "IMAGE",
-      source: {url: "https://drive.google.com/file/d/1HiNHL2pOWSfRXW7qlkQod8ya4wKqIyXm/view"}
-    }
-  },
-  {
-    title: "99",
-    num: 99,
-    cardTitle: "23 dec 2024",
-    cardSubtitle : "bla2",
-    cardDetailedText: "bloqwgbiobgiowbgoasg3",
-    media: {
-      type: "IMAGE",
-      source: "img/gne.jpg"
-    }
-  },
-  {
-    title: "98",
-    num: 98,
-    cardTitle: "24 dec 2024",
-    cardSubtitle : "Noel",
-    cardDetailedText: "",
-    media: {
-      type: "IMAGE",
-      source: {url: "img/gne.jpg"}
+      source: {
+        url: media
+      }
     }
   }
-];
+}
 
-export default allItems; 
+export default function buildAllItems() {
+  var allItems = [];
+  for (var i = 100; i >= 0; i--) {
+    allItems.push(buildItem(i, "https://cdn.discordapp.com/attachments/788050249356017725/1007350979429154886/IMG_20220811_201113.jpg?ex=6769a835&is=676856b5&hm=f6d5550a9142afa6417aecedea8536b8e16cdf9acac5e52d90e77fb733eecfcc&"))
+  }
+  console.log("allitems", allItems)
+  return allItems;
+}

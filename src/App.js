@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { createGlobalStyle } from "styled-components";
-import allItems from "./data";
 import Appbackground from "./img/denim.png";
 import { Chrono } from "react-chrono";
 import Jour from "./Jour";
+import buildAllItems from "./data";
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -22,18 +22,21 @@ const GlobalStyle = createGlobalStyle`
 
 function App() {
 
+  const [allItems, setItems] = useState(buildAllItems());
+
   return (
     <>
       <GlobalStyle />
       <header>
         <h1>Calendrier de l'avant-retraite</h1>
-        <h2>Vivement l'acquis !</h2>
+        <h4>Vivement l'acquis !</h4>
+        {console.log(allItems)}
       </header>
       <div className="calendrier">
-        <Chrono mode="HORIZONTAL" items={allItems} enableDarkToggle cardWidth={600} cardHeight={480}>
-           {/* <div className="chrono-icons">
+        <Chrono mode="HORIZONTAL" items={allItems} enableDarkToggle titleDateFormat="DD.MM.YYYY" cardWidth={500} cardHeight={500} timelinePointShape="circle" timelinePointDimension={30} highlightCardsOnHover >
+           <div className="chrono-icons">
               {allItems.map((jour) => <strong>{jour.num}</strong>)}
-            </div> */}
+            </div>
             {/* {allItems.map(jour => <Jour item={jour} key={jour.num}/>)} */}
         </Chrono>
       </div>
