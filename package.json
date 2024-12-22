@@ -1,15 +1,19 @@
 {
   "name": "100jours",
   "version": "0.1.0",
+  "homepage": "https://tagpower.github.io/100jours",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^18.3.1",
+    "react-chrono": "^2.6.1",
+    "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
     "styled-components": "^6.1.13"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -32,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }
