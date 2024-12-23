@@ -4,11 +4,11 @@ import Appbackground from "./img/denim.png";
 import { Chrono } from "react-chrono";
 import Jour from "./Jour";
 import buildAllItems from "./data";
+import buildAllAvailableItems from "./data";
 
 const GlobalStyle = createGlobalStyle`
   body {
     background: center fixed url(${Appbackground});
-    margin: 1em;
   }
   header {
     display: flex,
@@ -23,10 +23,12 @@ const GlobalStyle = createGlobalStyle`
 
 function App() {
 
-  const [allItems, setItems] = useState(buildAllItems());
+  const [allItems, setItems] = useState(buildAllAvailableItems());
 
   const daysLeft = allItems.find((item) => item.locked).num + 1;
+  const latestItem = allItems.findIndex((item) => item.locked) - 1;
   console.log("daysLeft", daysLeft);
+  console.log("latestItem", latestItem);
 
   return (
     <>
@@ -37,9 +39,9 @@ function App() {
       </header>
       <div className="calendrier">
         <Chrono mode="HORIZONTAL" items={allItems} allowDynamicUpdate focusActiveItemOnLoad 
-        enableBreakPoint enableDarkToggle timelinePointShape="circle" timelinePointDimension={30} highlightCardsOnHover activeItemIndex={0} parseDetailsAsHTML
+        enableBreakPoint enableDarkToggle timelinePointShape="circle" timelinePointDimension={30} highlightCardsOnHover activeItemIndex={latestItem} parseDetailsAsHTML
         theme={{secondary: 'blue', titleColorActive: 'white'}}
-        titleDateFormat="DD.MM.YYYY" cardWidth={625} cardHeight={500} mediaSettings={{ align: 'center', fit: 'cover' }} >
+        titleDateFormat="DD.MM.YYYY" cardWidth={625} cardHeight={500} mediaHeight={500} mediaSettings={{ align: 'center', fit:'cover' }} >
            <div className="chrono-icons">
               {allItems.map((jour) => <strong>{jour.num}</strong>)}
             </div>
