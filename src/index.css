@@ -14,6 +14,7 @@ code {
 div .calendrier {
   margin:2em;
   background-image: url("img/fond.jpg");
+  border-radius: 5px;
 }
 
 div .timeline-circle {
