@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { createGlobalStyle } from "styled-components";
 import Appbackground from "./img/denim.png";
 import { Chrono } from "react-chrono";
-import Jour from "./Jour";
-import buildAllItems from "./data";
 import buildAllAvailableItems from "./data";
 
 const GlobalStyle = createGlobalStyle`
@@ -17,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
     text-align: center;
     color: white;
     flex-direction: column;
-    font-size: calc(10px + 2vmin);
+    font-size: calc(10px + 1vmin);
   }
 `;
 
@@ -35,7 +33,7 @@ function App() {
       <GlobalStyle />
       <header>
         <h1>Calendrier de l'avant-retraite</h1>
-        <h4>Vivement l'acquis !</h4>
+        <h4>Encore {daysLeft} jour{daysLeft > 1 ? 's':''} : Vivement l'acquis !</h4>
       </header>
       <div className="calendrier">
         <Chrono mode="HORIZONTAL" items={allItems} allowDynamicUpdate focusActiveItemOnLoad 

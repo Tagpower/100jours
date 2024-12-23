@@ -26,7 +26,7 @@ function buildItem(num, content) {
       num: num,
       date: date,
       locked: false,
-      cardTitle: content.title || (date.toLocaleDateString() + " - Encore " + num + " jours !") ,
+      cardTitle: date.toLocaleDateString(),
       cardSubtitle: content.subtitle || "",
       cardDetailedText: content.text,
       media: {
