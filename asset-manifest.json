@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/100jours/static/css/main.407dd7ab.css",
-    "main.js": "/100jours/static/js/main.f7d21cac.js",
+    "main.js": "/100jours/static/js/main.9a8f8fbc.js",
     "static/media/denim.png": "/100jours/static/media/denim.31f9a4a8cf5aa924cd34.png",
     "static/media/fond.jpg": "/100jours/static/media/fond.ecaab7bf4eee25b1aa6b.jpg",
     "index.html": "/100jours/index.html",
     "main.407dd7ab.css.map": "/100jours/static/css/main.407dd7ab.css.map",
-    "main.f7d21cac.js.map": "/100jours/static/js/main.f7d21cac.js.map"
+    "main.9a8f8fbc.js.map": "/100jours/static/js/main.9a8f8fbc.js.map"
   },
   "entrypoints": [
     "static/css/main.407dd7ab.css",
-    "static/js/main.f7d21cac.js"
+    "static/js/main.9a8f8fbc.js"
   ]
 }
