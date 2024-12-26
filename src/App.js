@@ -5,7 +5,7 @@ import { Chrono } from "react-chrono";
 import buildAllAvailableItems from "./data";
 
 const GlobalStyle = createGlobalStyle`
-  body {
+  html {
     background: center fixed url(${Appbackground});
   }
   header {
@@ -33,17 +33,17 @@ function App() {
       <GlobalStyle />
       <header>
         <h1>Calendrier de l'avant-retraite</h1>
-        <h4>Encore {daysLeft} jour{daysLeft > 1 ? 's':''} : Vivement l'acquis !</h4>
+        <h3>Encore {daysLeft} jour{daysLeft > 1 ? 's':''} : Vivement l'acquis !</h3>
       </header>
       <div className="calendrier">
-        <Chrono mode="HORIZONTAL" items={allItems} allowDynamicUpdate focusActiveItemOnLoad 
-        enableBreakPoint enableDarkToggle timelinePointShape="circle" timelinePointDimension={30} highlightCardsOnHover activeItemIndex={latestItem} parseDetailsAsHTML
-        theme={{secondary: 'blue', titleColorActive: 'white'}}
-        titleDateFormat="DD.MM.YYYY" cardWidth={625} cardHeight={500} mediaHeight={500} mediaSettings={{ align: 'center', fit:'cover' }} >
-           <div className="chrono-icons">
-              {allItems.map((jour) => <strong>{jour.num}</strong>)}
-            </div>
-            {/* {allItems.map(jour => <Jour item={jour} key={jour.num}/>)} */}
+        <Chrono mode="HORIZONTAL" items={allItems} allowDynamicUpdate focusActiveItemOnLoad toolbarPosition="BOTTOM"
+        parseDetailsAsHTML activeItemIndex={latestItem} highlightCardsOnHover 
+        enableDarkToggle lineWidth={6} timelinePointShape="circle" timelinePointDimension={50} 
+        theme={{secondary: 'blue', titleColorActive: 'white'}} buttonTexts={{first: "Début", last: "Fin", next: "Suivant", previous: "Précédent",}}
+        titleDateFormat="DD.MM.YYYY" cardWidth={850} cardHeight={500} mediaHeight={600} mediaSettings={{ align: 'center', fit:'contain' }} >
+          <div className="chrono-icons">
+            {allItems.map((jour, key) => <strong className={(jour.num < daysLeft ? "locked" : "")}>{jour.num}</strong>)}
+          </div>
         </Chrono>
       </div>
 
