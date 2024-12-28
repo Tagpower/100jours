@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/100jours/static/css/main.57fb00da.css",
-    "main.js": "/100jours/static/js/main.bd6a0b81.js",
+    "main.js": "/100jours/static/js/main.8aefc175.js",
     "static/media/24dec.mp4": "/100jours/static/media/24dec.2fd57a755945d904dc00.mp4",
     "static/media/denim.png": "/100jours/static/media/denim.31f9a4a8cf5aa924cd34.png",
+    "static/media/serieux.jpg": "/100jours/static/media/serieux.8c265a826b263ce9517b.jpg",
+    "static/media/chef.jpg": "/100jours/static/media/chef.b86b443dcd5f98552526.jpg",
     "static/media/sapin.jpg": "/100jours/static/media/sapin.5ceda47d31c6fa8a5dd4.jpg",
     "static/media/fond.jpg": "/100jours/static/media/fond.ecaab7bf4eee25b1aa6b.jpg",
     "static/media/dometcecile.aac": "/100jours/static/media/dometcecile.33e2f688a1128acb642f.aac",
@@ -11,10 +13,10 @@
     "static/media/famille.jpg": "/100jours/static/media/famille.9c74435eeebd9c302c3e.jpg",
     "index.html": "/100jours/index.html",
     "main.57fb00da.css.map": "/100jours/static/css/main.57fb00da.css.map",
-    "main.bd6a0b81.js.map": "/100jours/static/js/main.bd6a0b81.js.map"
+    "main.8aefc175.js.map": "/100jours/static/js/main.8aefc175.js.map"
   },
   "entrypoints": [
     "static/css/main.57fb00da.css",
-    "static/js/main.bd6a0b81.js"
+    "static/js/main.8aefc175.js"
   ]
 }
