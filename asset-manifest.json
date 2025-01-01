@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/100jours/static/css/main.57fb00da.css",
-    "main.js": "/100jours/static/js/main.8aefc175.js",
+    "main.css": "/100jours/static/css/main.62e844ad.css",
+    "main.js": "/100jours/static/js/main.963f2f2b.js",
+    "static/media/twist.mp4": "/100jours/static/media/twist.d49b97a60287a29b0048.mp4",
     "static/media/24dec.mp4": "/100jours/static/media/24dec.2fd57a755945d904dc00.mp4",
     "static/media/denim.png": "/100jours/static/media/denim.31f9a4a8cf5aa924cd34.png",
     "static/media/serieux.jpg": "/100jours/static/media/serieux.8c265a826b263ce9517b.jpg",
+    "static/media/bonono.png": "/100jours/static/media/bonono.4db5a528a3a374e2e2c9.png",
     "static/media/chef.jpg": "/100jours/static/media/chef.b86b443dcd5f98552526.jpg",
+    "static/media/slever.jpg": "/100jours/static/media/slever.c4b0a8a85b136fd13d70.jpg",
     "static/media/sapin.jpg": "/100jours/static/media/sapin.5ceda47d31c6fa8a5dd4.jpg",
     "static/media/fond.jpg": "/100jours/static/media/fond.ecaab7bf4eee25b1aa6b.jpg",
     "static/media/dometcecile.aac": "/100jours/static/media/dometcecile.33e2f688a1128acb642f.aac",
+    "static/media/galette2025.jpg": "/100jours/static/media/galette2025.0ef99330b3ec9cc5cada.jpg",
     "static/media/paddle.jpg": "/100jours/static/media/paddle.3b181f7722a9a7c2d808.jpg",
     "static/media/famille.jpg": "/100jours/static/media/famille.9c74435eeebd9c302c3e.jpg",
     "index.html": "/100jours/index.html",
-    "main.57fb00da.css.map": "/100jours/static/css/main.57fb00da.css.map",
-    "main.8aefc175.js.map": "/100jours/static/js/main.8aefc175.js.map"
+    "main.62e844ad.css.map": "/100jours/static/css/main.62e844ad.css.map",
+    "main.963f2f2b.js.map": "/100jours/static/js/main.963f2f2b.js.map"
   },
   "entrypoints": [
-    "static/css/main.57fb00da.css",
-    "static/js/main.8aefc175.js"
+    "static/css/main.62e844ad.css",
+    "static/js/main.963f2f2b.js"
   ]
 }
