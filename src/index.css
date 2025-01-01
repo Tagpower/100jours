@@ -6,10 +6,25 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+section .timeline-card-content {
+  box-sizing: content-box;
+}
+
 div.calendrier {
   margin:2em;
   background-image: url("img/fond.jpg");
   border-radius: 5px;
+  box-sizing: content-box;
+}
+
+div.timeline-horz-card-wrapper {
+  min-width: 40%;
+  max-width: 60%;
+}
+
+div.card-media-wrapper {
+  min-height: 700px;
+  overflow: auto;
 }
 
 div.timeline-circle {
