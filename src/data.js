@@ -10,6 +10,16 @@ import v092 from "./video/twist.mp4"
 import p091 from "./img/bonono.png"
 import p090 from "./img/galette2025.jpg"
 import p089 from "./img/slever.jpg"
+import p088 from "./img/victor.jpg"
+import v086 from "./video/pyves.mp4"
+import p085 from "./img/isa+totof.jpg"
+import p084 from "./img/charlie.jpg"
+import v083 from "./video/christophe.mp4" 
+import p082 from "./img/elvis.jpg"
+import p081 from "./img/balaisev.jpg"
+import v080 from "./video/novaflemme.mp4"
+
+const v087 = "https://www.youtube.com/embed/HqAGmKrCFms";
 
 var contents = [
 {subtitle:"Coucou papa !",
@@ -56,8 +66,43 @@ var contents = [
   text:`Dernier trimestre à tirer, le reste est déjà racheté !<br>
   Bon retour à la réalité post-fêtes, et bon courage pour 2025 !`,
   media:{type:"IMAGE", source:{url:p089}}},
-
+{subtitle:"Victorieux !",
+  text:`Encore un qui échappe au Club des 27... c'est pas plus mal !`,
+  media:{type:"IMAGE", source:{url:p088}}},
+{subtitle:"Les copains d'Arvor !",
+  text:`Nous sommes en 2025 et vous regardez <s>l'ancêtre d'</s> Internet, bonsoir !`,
+  media:{type:"VIDEO", source:{url:v087, type:"video/mp4"}}},
+{subtitle:"Message de Pierre-Yves !",
+  text:``,
+  media:{type:"VIDEO", source:{url:v086, type:"video/mp4"}}},
+{subtitle:"Message d'Isabelle & Totof !",
+  text:`Bonjour Pascal alias le breton, Maurice.<br>
+Mission impossible pour résumer notre longue amitié. L'Oustalet, Lavilliers. Coluche, le salon nautique... résument nos moments inoubliables.<br>
+Alors la retraite va te permettre de peaufiner tes imitations pour nous enchanter lors de nos prochaines rencontres.<br>
+Force et confiance pour cette nouvelle tranche de vie.`,
+  media:{type:"IMAGE", source:{url:p085}}},
+{subtitle:"Où t'es, ChPhotoarlie ?",
+  text:`Il y a exactement 10 ans, l'année commençait très mal...<br>
+  Alors pour la mémoire, j'ai repensé à ce fameux hors-série qui a longtemps trôné chez nous, le premier Charlie Hebdo que j'ai ouvert, et dont j'avais essayé de saisir toutes les faces de son humour du haut de mes 9 ans, à l'instar des Austin Powers que je découvrais alors !<br>
+ (On l'a toujours, d'ailleurs ?...)`,
+  media:{type:"IMAGE", source:{url:p084}}},
+{subtitle:"Message de Christophe de la Chenelière !",
+  text:``,
+  media:{type:"VIDEO", source:{url:v083, type:"video/mp4"}}},
+{subtitle:"Who is the King ?",
+  text:`C'est aujourd'hui que ton cadeau de Noël s'active ! It's now or never !`,
+  media:{type:"IMAGE", source:{url:p082}}},
+{subtitle:"Pas d'malaise, Pascal !",
+  text:`À l'aise sur la falaise !`,
+  media:{type:"IMAGE", source:{url:p081}}},
+{subtitle:"Message de... Nova ?",
+  text:`La seule existence de Nova provoque une novague de flemme implacable...<br>Et on dirait bien que maman se l'est prise de plein fouet !`,
+  media:{type:"VIDEO", source:{url:v080, type:"video/mp4"}}},
 ]
+
+var waitContent = {
+  subtitle:"En retard !", text:"Normalement il devrait y avoir quelque chose ici, mais j'ai oublié de le mettre...<br>Faut pas hésiter à venir me secouer sur Messenger !", media:{type:"IMAGE", source:{url:"https://www.museumtv.art/wp-content/uploads/2021/05/E5EA565D-7ADE-43FF-B762-844F60CFAE23-1024x778.jpeg"}}
+}
 
 var lockedContent = {
   subtitle:"Pas encore ouvert !", text:"", media:{type:"IMAGE", source:{url:"https://i.imgur.com/FDA4vAA.jpeg"}}
@@ -84,13 +129,17 @@ export default function buildAllItems() {
     num = 100-i;
     date = new Date("2025-04-01");
     date.setDate(date.getDate()-num);
-    //Si dépassement de tableau ou de date : afficher ?¿?¿
-    if (i < contents.length && today >= date ) {
+    //Si dépassement de date : afficher ?¿?¿
+    //Si dépassement de tableau : afficher retard
+    if (today < date) {
+    //if (false) {
+      allItems.push(buildItem(num, date, lockedContent, true));
+    } else if (i < contents.length) {
       allItems.push(buildItem(num, date, contents[i], false));
     } else {
-      allItems.push(buildItem(num, date, lockedContent, true));
+      allItems.push(buildItem(num, date, waitContent, true));
     }
   }
-  console.log(allItems)
+  //console.log(allItems)
   return allItems;
 }

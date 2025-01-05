@@ -24,7 +24,7 @@ div.timeline-horz-card-wrapper {
 
 div.card-media-wrapper {
   min-height: 700px;
-  overflow: auto;
+  overflow: clip;
 }
 
 div.timeline-circle {
@@ -37,6 +37,19 @@ div.timeline-circle.active {
 
 div.timeline-circle:hover {
   background: blue; 
+}
+
+div.timeline-circle:has(.latest) {
+  animation: pulse 1s infinite;
+}
+@keyframes pulse {
+  0% {
+      box-shadow: 0 0 0 0 rgba(0, 128, 255, 0.8);
+  }
+
+  100% {
+      box-shadow: 0 0 0 20px rgba(0, 128, 255, 0);
+  }
 }
 
 div.timeline-circle:has(.locked) {

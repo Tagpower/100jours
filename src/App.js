@@ -42,7 +42,7 @@ function App() {
         theme={{secondary: 'blue', titleColorActive: 'white'}} buttonTexts={{first: "Début", last: "Fin", next: "Suivant", previous: "Précédent"}}
         titleDateFormat="DD.MM.YYYY" contentDetailsHeight={300} mediaSettings={{ align: 'center', fit:'contain' }} >
           <div className="chrono-icons">
-            {allItems.map((jour, key) => <strong className={(jour.num < daysLeft ? "locked" : "")}>{jour.num}</strong>)}
+            {allItems.map((jour, key) => <strong className={(jour.num < daysLeft ? "locked" : (jour.num === daysLeft ? "latest" : "" ))}>{jour.num}</strong>)}
           </div>
         </Chrono>
       </div>
