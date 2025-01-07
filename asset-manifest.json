@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/100jours/static/css/main.e11f4b72.css",
-    "main.js": "/100jours/static/js/main.18883fe3.js",
+    "main.js": "/100jours/static/js/main.e4943d10.js",
     "static/media/twist.mp4": "/100jours/static/media/twist.d49b97a60287a29b0048.mp4",
     "static/media/24dec.mp4": "/100jours/static/media/24dec.2fd57a755945d904dc00.mp4",
     "static/media/novaflemme.mp4": "/100jours/static/media/novaflemme.9310d4f8cc757c3c73e6.mp4",
@@ -25,10 +25,10 @@
     "static/media/famille.jpg": "/100jours/static/media/famille.9c74435eeebd9c302c3e.jpg",
     "index.html": "/100jours/index.html",
     "main.e11f4b72.css.map": "/100jours/static/css/main.e11f4b72.css.map",
-    "main.18883fe3.js.map": "/100jours/static/js/main.18883fe3.js.map"
+    "main.e4943d10.js.map": "/100jours/static/js/main.e4943d10.js.map"
   },
   "entrypoints": [
     "static/css/main.e11f4b72.css",
-    "static/js/main.18883fe3.js"
+    "static/js/main.e4943d10.js"
   ]
 }
