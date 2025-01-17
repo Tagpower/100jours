@@ -18,8 +18,20 @@ import v083 from "./video/christophe.mp4"
 import p082 from "./img/elvis.jpg"
 import p081 from "./img/balaisev.jpg"
 import v080 from "./video/novaflemme.mp4"
+import v078 from "./video/bertin.mp4"
+import v077 from "./video/manu.mp4"
+import v076 from "./video/josette.mp4"
+import p075 from "./img/montre.jpg"
+import p074 from "./img/force.jpg"
+import p073 from "./img/rouj.jpg"
+import p072 from "./img/victoire.jpg"
+import v071 from "./video/chiassepunk.mp4"
+
+
+import p049 from "./img/pape.jpg"
 
 const v087 = "https://www.youtube.com/embed/HqAGmKrCFms";
+const v079 = "https://www.youtube.com/embed/rnTyHIOZTJ0";
 
 var contents = [
 {subtitle:"Coucou papa !",
@@ -81,13 +93,12 @@ Mission impossible pour résumer notre longue amitié. L'Oustalet, Lavilliers. C
 Alors la retraite va te permettre de peaufiner tes imitations pour nous enchanter lors de nos prochaines rencontres.<br>
 Force et confiance pour cette nouvelle tranche de vie.`,
   media:{type:"IMAGE", source:{url:p085}}},
-{subtitle:"Où t'es, ChPhotoarlie ?",
+{subtitle:"Où t'es, Charlie ?",
   text:`Il y a exactement 10 ans, l'année commençait très mal...<br>
   Alors pour la mémoire, j'ai repensé à ce fameux hors-série qui a longtemps trôné chez nous, le premier Charlie Hebdo que j'ai ouvert, et dont j'avais essayé de saisir toutes les faces de son humour du haut de mes 9 ans, à l'instar des Austin Powers que je découvrais alors !<br>
  (On l'a toujours, d'ailleurs ?...)`,
   media:{type:"IMAGE", source:{url:p084}}},
 {subtitle:"Message de Christophe de la Chenelière !",
-  text:``,
   media:{type:"VIDEO", source:{url:v083, type:"video/mp4"}}},
 {subtitle:"Who is the King ?",
   text:`C'est aujourd'hui que ton cadeau de Noël s'active ! It's now or never !`,
@@ -98,6 +109,34 @@ Force et confiance pour cette nouvelle tranche de vie.`,
 {subtitle:"Message de... Nova ?",
   text:`La seule existence de Nova provoque une novague de flemme implacable...<br>Et on dirait bien que maman se l'est prise de plein fouet !`,
   media:{type:"VIDEO", source:{url:v080, type:"video/mp4"}}},
+{subtitle:"Les gens marris le peinent",
+  text:`On en aurait presque oublié l'événement principal de la semaine !`,
+  media:{type:"VIDEO", source:{url:v079, type:"video/mp4"}}},
+{subtitle:"Message des Bertin !",
+  media:{type:"VIDEO", source:{url:v078, type:"video/mp4"}}},
+{subtitle:"Message de Manu, 'tention !",
+  media:{type:"VIDEO", source:{url:v077, type:"video/mp4"}}},
+{subtitle:"Jésus, Marie, Josette !",
+  media:{type:"VIDEO", source:{url:v076, type:"video/mp4"}}},
+{subtitle:"Un quart ? Que fous-je ? ",
+  text:`Eh bah, déjà un quart de passé ! T'y crois, toi ?`,
+  media:{type:"IMAGE", source:{url:p075}}},
+{subtitle:"Pour être bon en physique, faut que vous vous leviez tôt !",
+  text:`Voici un autre des livres de la maison qui ont façonné mon intérêt pour la mécanique (pas celle avec les clés plates et le cambouis !) et plus généralement la physique (<i>le</i> physique vint seulement après) !<br>
+  Tout ça pour faire un bac S (comme <i>Sans mention</i>) et 6 ans d'études en informatique, est-ce que ça pèse dans la balance ?<br>
+  En tout cas, ça n'a pas manqué de travail, de frictions, de résistance et de tensions pour l'électron libre que je suis !`,
+  media:{type:"IMAGE", source:{url:p074}}},
+{subtitle:"Pascal au bistrot !",
+  text:`Oh bah ça va, y a pas à rougir comme ça (et je parle pas du verre) !`,
+  media:{type:"IMAGE", source:{url:p073}}},
+{subtitle:"La Victoire ou que dalle !",
+  text:`Est-ce que la vraie victoire, ça ne serait pas en fait ce décor et cet éclairage incroyables ? 😭`,
+  media:{type:"IMAGE", source:{url:p072}}},
+{subtitle:"Daft Pauvre",
+  text:`On pourra dire à Valentin et Adèle que c'était nous, les Daft Punk ! 🤖👨‍🚀`,
+  media:{type:"VIDEO", source:{url:v071, type:"video/mp4"}}},
+// {subtitle:"Message de Fabienne & Éric !",
+//   media:{type:"VIDEO", source:{url:p077, type:"image"}}},
 ]
 
 var waitContent = {
@@ -140,6 +179,5 @@ export default function buildAllItems() {
       allItems.push(buildItem(num, date, waitContent, true));
     }
   }
-  //console.log(allItems)
   return allItems;
 }

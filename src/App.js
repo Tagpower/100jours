@@ -36,11 +36,11 @@ function App() {
         <h3>Encore {daysLeft} jour{daysLeft > 1 ? 's':''} : Vivement l'acquis !</h3>
       </header>
       <div className="calendrier">
-        <Chrono mode="HORIZONTAL" items={allItems} allowDynamicUpdate focusActiveItemOnLoad /*disableToolbar*/
+        <Chrono mode="HORIZONTAL" items={allItems} allowDynamicUpdate focusActiveItemOnLoad toolbarPosition="bottom" /*disableToolbar*/
         parseDetailsAsHTML activeItemIndex={latestItem} highlightCardsOnHover
         enableDarkToggle lineWidth={6} timelinePointShape="circle" timelinePointDimension={50} 
         theme={{secondary: 'blue', titleColorActive: 'white'}} buttonTexts={{first: "Début", last: "Fin", next: "Suivant", previous: "Précédent"}}
-        titleDateFormat="DD.MM.YYYY" contentDetailsHeight={300} mediaSettings={{ align: 'center', fit:'contain' }} >
+        titleDateFormat="DD.MM.YYYY" contentDetailsHeight={200} mediaSettings={{ align: 'center', imageFit:'contain' }} >
           <div className="chrono-icons">
             {allItems.map((jour, key) => <strong className={(jour.num < daysLeft ? "locked" : (jour.num === daysLeft ? "latest" : "" ))}>{jour.num}</strong>)}
           </div>
