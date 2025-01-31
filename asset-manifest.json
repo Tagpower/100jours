@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/100jours/static/css/main.3b4a3e2b.css",
-    "main.js": "/100jours/static/js/main.e2cf97be.js",
+    "main.js": "/100jours/static/js/main.3dd41296.js",
     "static/media/guy.mp4": "/100jours/static/media/guy.b74c560d925973b38501.mp4",
     "static/media/twist.mp4": "/100jours/static/media/twist.d49b97a60287a29b0048.mp4",
+    "static/media/blues.mp4": "/100jours/static/media/blues.ca93316e5696732b2ae1.mp4",
     "static/media/24dec.mp4": "/100jours/static/media/24dec.2fd57a755945d904dc00.mp4",
     "static/media/victoire.mp4": "/100jours/static/media/victoire.8950ae5603be0e447d3e.mp4",
     "static/media/novaflemme.mp4": "/100jours/static/media/novaflemme.9310d4f8cc757c3c73e6.mp4",
@@ -24,30 +25,34 @@
     "static/media/chef.jpg": "/100jours/static/media/chef.b86b443dcd5f98552526.jpg",
     "static/media/chovsouri.jpg": "/100jours/static/media/chovsouri.c56b952bb7f5583e5b7d.jpg",
     "static/media/pape.jpg": "/100jours/static/media/pape.aeca825530564342f80c.jpg",
+    "static/media/elviss.jpeg": "/100jours/static/media/elviss.bbce57e7ac05d28cc82e.jpeg",
     "static/media/main.jpg": "/100jours/static/media/main.f7615e9b026389bba193.jpg",
     "static/media/montreux.jpg": "/100jours/static/media/montreux.d3c4506766c70095ed48.jpg",
     "static/media/slever.jpg": "/100jours/static/media/slever.c4b0a8a85b136fd13d70.jpg",
     "static/media/charlie.jpg": "/100jours/static/media/charlie.6c96fb52d2413afa2980.jpg",
     "static/media/sapin.jpg": "/100jours/static/media/sapin.5ceda47d31c6fa8a5dd4.jpg",
+    "static/media/escala.jpg": "/100jours/static/media/escala.20af549ffb2d461b2ce9.jpg",
+    "static/media/louvre.jpg": "/100jours/static/media/louvre.a8eaae082618082d62c8.jpg",
     "static/media/fond.jpg": "/100jours/static/media/fond.ecaab7bf4eee25b1aa6b.jpg",
     "static/media/gorges.jpg": "/100jours/static/media/gorges.5e16ecce1d015dbfd281.jpg",
     "static/media/dometcecile.aac": "/100jours/static/media/dometcecile.33e2f688a1128acb642f.aac",
     "static/media/lac.jpg": "/100jours/static/media/lac.e287a8ef61d108179c15.jpg",
     "static/media/isa+totof.jpg": "/100jours/static/media/isa+totof.6b2d267aa520f08235ab.jpg",
+    "static/media/litpetits.jpg": "/100jours/static/media/litpetits.dc32f109f92b5bd465e3.jpg",
     "static/media/galette2025.jpg": "/100jours/static/media/galette2025.0ef99330b3ec9cc5cada.jpg",
-    "static/media/faberic.jpg": "/100jours/static/media/faberic.90dbb1992f8492e32af9.jpg",
     "static/media/paddle.jpg": "/100jours/static/media/paddle.3b181f7722a9a7c2d808.jpg",
     "static/media/elvis.jpg": "/100jours/static/media/elvis.83eb9f6f35b4627a2c6d.jpg",
     "static/media/rouj.jpg": "/100jours/static/media/rouj.2afd709c5cbea0c06722.jpg",
+    "static/media/francky.jpg": "/100jours/static/media/francky.c1c83be368c1f5f30795.jpg",
     "static/media/victor.jpg": "/100jours/static/media/victor.a148e8a73fcf0050d816.jpg",
     "static/media/force.jpg": "/100jours/static/media/force.5bfe19df64993ad67b2b.jpg",
     "static/media/famille.jpg": "/100jours/static/media/famille.9c74435eeebd9c302c3e.jpg",
     "index.html": "/100jours/index.html",
     "main.3b4a3e2b.css.map": "/100jours/static/css/main.3b4a3e2b.css.map",
-    "main.e2cf97be.js.map": "/100jours/static/js/main.e2cf97be.js.map"
+    "main.3dd41296.js.map": "/100jours/static/js/main.3dd41296.js.map"
   },
   "entrypoints": [
     "static/css/main.3b4a3e2b.css",
-    "static/js/main.e2cf97be.js"
+    "static/js/main.3dd41296.js"
   ]
 }
