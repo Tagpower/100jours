@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/100jours/static/css/main.3b4a3e2b.css",
-    "main.js": "/100jours/static/js/main.3dd41296.js",
+    "main.js": "/100jours/static/js/main.ba230d66.js",
     "static/media/guy.mp4": "/100jours/static/media/guy.b74c560d925973b38501.mp4",
     "static/media/twist.mp4": "/100jours/static/media/twist.d49b97a60287a29b0048.mp4",
     "static/media/blues.mp4": "/100jours/static/media/blues.ca93316e5696732b2ae1.mp4",
     "static/media/24dec.mp4": "/100jours/static/media/24dec.2fd57a755945d904dc00.mp4",
+    "static/media/claire.mp4": "/100jours/static/media/claire.4480ca8d60c9278c54e1.mp4",
     "static/media/victoire.mp4": "/100jours/static/media/victoire.8950ae5603be0e447d3e.mp4",
     "static/media/novaflemme.mp4": "/100jours/static/media/novaflemme.9310d4f8cc757c3c73e6.mp4",
     "static/media/christophe.mp4": "/100jours/static/media/christophe.1d63947084420f0d2651.mp4",
@@ -30,6 +31,7 @@
     "static/media/montreux.jpg": "/100jours/static/media/montreux.d3c4506766c70095ed48.jpg",
     "static/media/slever.jpg": "/100jours/static/media/slever.c4b0a8a85b136fd13d70.jpg",
     "static/media/charlie.jpg": "/100jours/static/media/charlie.6c96fb52d2413afa2980.jpg",
+    "static/media/pointe.jpg": "/100jours/static/media/pointe.717e50042857e95bf914.jpg",
     "static/media/sapin.jpg": "/100jours/static/media/sapin.5ceda47d31c6fa8a5dd4.jpg",
     "static/media/escala.jpg": "/100jours/static/media/escala.20af549ffb2d461b2ce9.jpg",
     "static/media/louvre.jpg": "/100jours/static/media/louvre.a8eaae082618082d62c8.jpg",
@@ -49,10 +51,10 @@
     "static/media/famille.jpg": "/100jours/static/media/famille.9c74435eeebd9c302c3e.jpg",
     "index.html": "/100jours/index.html",
     "main.3b4a3e2b.css.map": "/100jours/static/css/main.3b4a3e2b.css.map",
-    "main.3dd41296.js.map": "/100jours/static/js/main.3dd41296.js.map"
+    "main.ba230d66.js.map": "/100jours/static/js/main.ba230d66.js.map"
   },
   "entrypoints": [
     "static/css/main.3b4a3e2b.css",
-    "static/js/main.3dd41296.js"
+    "static/js/main.ba230d66.js"
   ]
 }
