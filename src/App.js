@@ -37,8 +37,8 @@ function App() {
       </header>
       <div className="calendrier">
         <Chrono mode="HORIZONTAL" items={allItems} allowDynamicUpdate focusActiveItemOnLoad toolbarPosition="bottom" /*disableToolbar*/
-        parseDetailsAsHTML activeItemIndex={latestItem} highlightCardsOnHover
-        enableDarkToggle lineWidth={6} timelinePointShape="circle" timelinePointDimension={50} 
+        parseDetailsAsHTML activeItemIndex={latestItem} highlightCardsOnHover itemWidth={175}
+        enableDarkToggle lineWidth={6} timelinePointShape="circle" timelinePointDimension={50}
         theme={{secondary: 'blue', titleColorActive: 'white'}} buttonTexts={{first: "Début", last: "Fin", next: "Suivant", previous: "Précédent"}}
         titleDateFormat="DD.MM.YYYY" contentDetailsHeight={200} mediaSettings={{ align: 'center', imageFit:'contain' }} >
           <div className="chrono-icons">
