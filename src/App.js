@@ -27,6 +27,7 @@ function App() {
   const latestItem = allItems.findIndex((item) => item.locked) - 1;
   console.log("daysLeft", daysLeft);
   console.log("latestItem", latestItem);
+  console.log("allitems", allItems);
 
   return (
     <>

@@ -48,13 +48,28 @@ import a052 from "./sfx/faberic.m4a"
 import p051 from "./img/miche.jpg"
 import v050 from "./video/erdre.mp4"
 import p049 from "./img/pape.jpg"
+import p048 from "./img/funes.jpg"
 
+import w001 from "./img/agnain.gif"
+import w002 from "./sfx/tout_pete.mp3"
+import w003 from "./img/gneee.jpg"
 
+import p041 from "./img/tonton.jpg"
+import v040 from "./video/val.mp4"
+import v039 from "./video/renault1.mp4"
+import v038 from "./video/renault2.mp4"
+import v037 from "./video/renault3.mp4"
+import p034 from "./img/berangerie.jpg";
+
+import p028 from "./img/marc.jpg";
 
 const v087 = "https://www.youtube.com/embed/HqAGmKrCFms";
 const v079 = "https://www.youtube.com/embed/rnTyHIOZTJ0";
+const v036 = "https://www.youtube.com/embed/4BdhsNJziT0";
+const v035 = "https://www.youtube.com/embed/rB6OlJqV1rQ";
+const v033 = "https://www.youtube.com/embed/tS23C4EGCQs";
 
-var contents = [
+var contents_1 = [
 {subtitle:"Coucou papa !",
   text:`Comme tu l'avais fait remarquer, il ne te reste plus que 100 jours avant la retraite.<br>
   Alors moi et mes p'tits potes, mois de décembre oblige, on a eu l'idée de rendre cette période un peu plus sympa à égrener : sous la forme d'un petit calendrier avec des petits mots, photos, souvenirs et d'autres surprises chaque jour !<br>
@@ -237,7 +252,79 @@ Force et confiance pour cette nouvelle tranche de vie.`,
   media:{type:"VIDEO", source:{url:v050, type:"video/mp4"}}},
 {subtitle:"Je pète, tu contre-pètes",
   media:{type:"IMAGE", source:{url:p049}}},
-  ]
+{subtitle:"Putting the Fun in Louis de Funès since 1994",
+  text:`Plutôt à la masse que Fantômas, mais y avait déjà des signes !`,
+  media:{type:"IMAGE", source:{url:p048}}}
+]
+
+var wtfContents = [{
+  subtitle:"Les calculs sont tout nazes !", 
+  text:`Hein ? Attends, quoi ? La date a été changée ?<br>
+  Mais alors, ça veut dire que... je soustrais, je pose 3, je retiens 1, euuhhhh...<br>
+  et du coup le mec euuuuhhh... par'emple euhhhh... booohhh...<br>
+  Nan mais pasqueeeeeee... bon bahhhh... nan ?`,
+  media:{type:"IMAGE", source:{url:w001, type:"image/gif"}}
+},
+{
+  subtitle:"Ah bah barvo !", 
+  text:`Ah bah c'est malin ! On s'enlève un jour de boulot mais ça m'en rajoute un !<br>
+  Trou d'balleux, va !`,
+  media:{type:"VIDEO", source:{url:w002, type:"audio/mp3"}}
+},
+{
+  subtitle:"Problème technique, nique, nique", 
+  text:`Mais pourquoi j'ai choisi ce métier, moi ?... <br>
+  Voilà ce qui se passe quand on définit pas bien le cahier des charges dès le début :<br>
+  Au premier imprévu, on a l'air CON COMME UN MANCHE SANS SON BALAI !`,
+  media:{type:"IMAGE", source:{url:w003}}
+},
+]
+
+var contents_2 = [
+  {subtitle:"Retour à la normale !",
+    text:`Bon ! C'était chelou, mais j'ai fait quelques bricoles, et tu n'y verras que du fun !<br>
+    En attendant, j'ai ramassé ce petit bonhomme qui nous servira pour le message suivant !`,
+    media:{type:"IMAGE", source:{url:p041}}},
+  {subtitle:"Message de ton p'tit-fils (Presley) !",
+    media:{type:"VIDEO", source:{url:v040, type:"video/mp4"}}},
+  {subtitle:"Standing Renault-vation ! 1/3",
+    text:`Voilà un petit triptyque de la part des Renault qui commence !`,
+    media:{type:"VIDEO", source:{url:v039, type:"video/mp4"}}},  
+  {subtitle:"Standing Renault-vation ! 2/3",
+    text:`Souvent imité, jamais dégueulé !`,
+    media:{type:"VIDEO", source:{url:v038, type:"video/mp4"}}}, 
+  {subtitle:"Standing Renault-vation ! 3/3",
+    text:`Les légendes et traditions se transmettent encore à l'oral !`,
+    media:{type:"VIDEO", source:{url:v037, type:"video/mp4"}}},
+  {subtitle:"Message de Taha !",
+    text:`Puisque les mots ne sont jamais les mêmes pour exprimer ce qu'est le blues,<br>
+    un expert en la matière s'est proposé pour délivrer un message qui se passe<br>
+    de mots, dans la langue universelle qu'est justement le blues ! 🩵`,
+    media:{type:"VIDEO", source:{url:v036, type:"video/mp4"}}},
+  {subtitle:"Ah tiens, quand on parle du blues...",
+    text:`Pour rester dans le sujet, je voudrais te partager une de mes plus belles découvertes de ces dernières années<br>
+    parmi ce genre musical qui, un peu comme toi, a changé mon regard sur pas mal de choses et a su être là aux moments les plus importants 🩵`,
+    media:{type:"VIDEO", source:{url:v035, type:"video/mp4"}}},
+  {subtitle:"J'ai vu le couvreur, il m'a parlé de toit",
+    text:`La Bérangerie qui sera bientôt barbecue-compatible pour les étés retraités ! 😉`,
+    media:{type:"IMAGE", source:{url:p034}}},
+  {subtitle:"Bienvenue dans la (drôle de) machine",
+    text:`Voici un instrument bien inhabituel... mais il faut au moins ça pour jouer dignement du Pink Floyd !
+    J'admets avoir eu très envie de m'en commander un, mais j'ai vu le prix... et plus Jamie Dupuis ! 🤡`,
+    media:{type:"VIDEO", source:{url:v033, type:"video/mp4"}}},
+  //   {
+  //     subtitle:"En retard !", text:"Normalement il devrait y avoir quelque chose ici, mais j'ai oublié de le mettre...<br>Faut pas hésiter à venir me secouer sur Messenger !", media:{type:"IMAGE", source:{url:"https://www.museumtv.art/wp-content/uploads/2021/05/E5EA565D-7ADE-43FF-B762-844F60CFAE23-1024x778.jpeg"}}
+  //   },{
+  //     subtitle:"En retard !", text:"Normalement il devrait y avoir quelque chose ici, mais j'ai oublié de le mettre...<br>Faut pas hésiter à venir me secouer sur Messenger !", media:{type:"IMAGE", source:{url:"https://www.museumtv.art/wp-content/uploads/2021/05/E5EA565D-7ADE-43FF-B762-844F60CFAE23-1024x778.jpeg"}}
+  //   },{
+  //     subtitle:"En retard !", text:"Normalement il devrait y avoir quelque chose ici, mais j'ai oublié de le mettre...<br>Faut pas hésiter à venir me secouer sur Messenger !", media:{type:"IMAGE", source:{url:"https://www.museumtv.art/wp-content/uploads/2021/05/E5EA565D-7ADE-43FF-B762-844F60CFAE23-1024x778.jpeg"}}
+  //   },{
+  //     subtitle:"En retard !", text:"Normalement il devrait y avoir quelque chose ici, mais j'ai oublié de le mettre...<br>Faut pas hésiter à venir me secouer sur Messenger !", media:{type:"IMAGE", source:{url:"https://www.museumtv.art/wp-content/uploads/2021/05/E5EA565D-7ADE-43FF-B762-844F60CFAE23-1024x778.jpeg"}}
+  //   },
+  // {subtitle:"Déjà le mois de Marc ?",
+  //   text:`On rigole, mais le temps Pascal !`,
+  //   media:{type:"IMAGE", source:{url:p028}}},
+]
 
 var waitContent = {
   subtitle:"En retard !", text:"Normalement il devrait y avoir quelque chose ici, mais j'ai oublié de le mettre...<br>Faut pas hésiter à venir me secouer sur Messenger !", media:{type:"IMAGE", source:{url:"https://www.museumtv.art/wp-content/uploads/2021/05/E5EA565D-7ADE-43FF-B762-844F60CFAE23-1024x778.jpeg"}}
@@ -264,19 +351,35 @@ export default function buildAllItems() {
   var today = new Date();
   var date = new Date("2025-04-01");
   var num;
-  for (var i = 0; i <= 100; i++) {
+  for (var i = 0; i < 53; i++) {
     num = 100-i;
     date = new Date("2025-04-01");
     date.setDate(date.getDate()-num);
-    //Si dépassement de date : afficher ?¿?¿
+    allItems.push(buildItem(num, date, contents_1[i], false));
+  }
+
+  for (var j = 0; j < 3; j++) {
+    num = 47-j;
+    date = new Date("2025-04-01");
+    date.setDate(date.getDate()-num);
+    allItems.push(buildItem('!#?', date, wtfContents[j], false));
+  }
+
+  for (var k = 0; k <= 41; k++) {
+    num = 41-k;
+    date = new Date("2025-03-29");
+    date.setDate(date.getDate()-num);
+      //Si dépassement de date : afficher ?¿?¿
     //Si dépassement de tableau : afficher retard
-    if (today < date) { //if (false) {
+    if (today < date) { 
+    //if (false) {
       allItems.push(buildItem(num, date, lockedContent, true));
-    } else if (i < contents.length) {
-      allItems.push(buildItem(num, date, contents[i], false));
+    } else if (k < contents_2.length) {
+      allItems.push(buildItem(num, date, contents_2[k], false));
     } else {
       allItems.push(buildItem(num, date, waitContent, true));
     }
   }
+
   return allItems;
 }
