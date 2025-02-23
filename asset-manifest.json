@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/100jours/static/css/main.3b4a3e2b.css",
-    "main.js": "/100jours/static/js/main.a8afcb2e.js",
+    "main.js": "/100jours/static/js/main.90da3638.js",
     "static/media/guy.mp4": "/100jours/static/media/guy.b74c560d925973b38501.mp4",
     "static/media/twist.mp4": "/100jours/static/media/twist.d49b97a60287a29b0048.mp4",
     "static/media/erdre.mp4": "/100jours/static/media/erdre.4204bc3ecd7a0443b94c.mp4",
@@ -18,6 +18,7 @@
     "static/media/agnain.gif": "/100jours/static/media/agnain.f3287345a398321e5716.gif",
     "static/media/manu.mp4": "/100jours/static/media/manu.589642bdc0d252fd8d18.mp4",
     "static/media/bertin.mp4": "/100jours/static/media/bertin.09fffe51179131df30df.mp4",
+    "static/media/marc.jpg": "/100jours/static/media/marc.43d748894ecacab255f1.jpg",
     "static/media/renault3.mp4": "/100jours/static/media/renault3.57e2f0f4b48b3be714e3.mp4",
     "static/media/pyves.mp4": "/100jours/static/media/pyves.560b58eace60d6618b2a.mp4",
     "static/media/renault2.mp4": "/100jours/static/media/renault2.a364e43e12eb2af93af9.mp4",
@@ -53,6 +54,7 @@
     "static/media/litpetits.jpg": "/100jours/static/media/litpetits.dc32f109f92b5bd465e3.jpg",
     "static/media/galette2025.jpg": "/100jours/static/media/galette2025.0ef99330b3ec9cc5cada.jpg",
     "static/media/faberic.jpg": "/100jours/static/media/faberic.90dbb1992f8492e32af9.jpg",
+    "static/media/berangerie.jpg": "/100jours/static/media/berangerie.a0db27835e65b46935df.jpg",
     "static/media/paddle.jpg": "/100jours/static/media/paddle.3b181f7722a9a7c2d808.jpg",
     "static/media/elvis.jpg": "/100jours/static/media/elvis.83eb9f6f35b4627a2c6d.jpg",
     "static/media/tonton.jpg": "/100jours/static/media/tonton.d4bae36fcd5b54fbde2b.jpg",
@@ -64,10 +66,10 @@
     "static/media/tout_pete.mp3": "/100jours/static/media/tout_pete.bae17ce7be79ec1fc6aa.mp3",
     "index.html": "/100jours/index.html",
     "main.3b4a3e2b.css.map": "/100jours/static/css/main.3b4a3e2b.css.map",
-    "main.a8afcb2e.js.map": "/100jours/static/js/main.a8afcb2e.js.map"
+    "main.90da3638.js.map": "/100jours/static/js/main.90da3638.js.map"
   },
   "entrypoints": [
     "static/css/main.3b4a3e2b.css",
-    "static/js/main.a8afcb2e.js"
+    "static/js/main.90da3638.js"
   ]
 }
