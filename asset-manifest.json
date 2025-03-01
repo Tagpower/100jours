@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/100jours/static/css/main.3b4a3e2b.css",
-    "main.js": "/100jours/static/js/main.03786e73.js",
+    "main.css": "/100jours/static/css/main.e8788a35.css",
+    "main.js": "/100jours/static/js/main.cb63b2f2.js",
     "static/media/guy.mp4": "/100jours/static/media/guy.b74c560d925973b38501.mp4",
     "static/media/twist.mp4": "/100jours/static/media/twist.d49b97a60287a29b0048.mp4",
     "static/media/erdre.mp4": "/100jours/static/media/erdre.4204bc3ecd7a0443b94c.mp4",
@@ -33,6 +33,7 @@
     "static/media/balaisev.jpg": "/100jours/static/media/balaisev.e8e664ad8e2aa621c585.jpg",
     "static/media/bonono.png": "/100jours/static/media/bonono.4db5a528a3a374e2e2c9.png",
     "static/media/victoire.jpg": "/100jours/static/media/victoire.332a777c7fcc55e548a4.jpg",
+    "static/media/ledzep.mp4": "/100jours/static/media/ledzep.ff035327d26396198ab0.mp4",
     "static/media/chef.jpg": "/100jours/static/media/chef.b86b443dcd5f98552526.jpg",
     "static/media/chovsouri.jpg": "/100jours/static/media/chovsouri.c56b952bb7f5583e5b7d.jpg",
     "static/media/pape.jpg": "/100jours/static/media/pape.aeca825530564342f80c.jpg",
@@ -68,11 +69,11 @@
     "static/media/famille.jpg": "/100jours/static/media/famille.9c74435eeebd9c302c3e.jpg",
     "static/media/tout_pete.mp3": "/100jours/static/media/tout_pete.bae17ce7be79ec1fc6aa.mp3",
     "index.html": "/100jours/index.html",
-    "main.3b4a3e2b.css.map": "/100jours/static/css/main.3b4a3e2b.css.map",
-    "main.03786e73.js.map": "/100jours/static/js/main.03786e73.js.map"
+    "main.e8788a35.css.map": "/100jours/static/css/main.e8788a35.css.map",
+    "main.cb63b2f2.js.map": "/100jours/static/js/main.cb63b2f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b4a3e2b.css",
-    "static/js/main.03786e73.js"
+    "static/css/main.e8788a35.css",
+    "static/js/main.cb63b2f2.js"
   ]
 }
