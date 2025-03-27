@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/100jours/static/css/main.88f88b1c.css",
-    "main.js": "/100jours/static/js/main.4ecfb940.js",
+    "main.css": "/100jours/static/css/main.66f05b64.css",
+    "main.js": "/100jours/static/js/main.a3b8c43e.js",
     "static/media/RenaudSechian.mp4": "/100jours/static/media/RenaudSechian.a22c1c24e44b21d87a3d.mp4",
     "static/media/blandine.mp4": "/100jours/static/media/blandine.084e34e7b732a5121e53.mp4",
     "static/media/guy.mp4": "/100jours/static/media/guy.b74c560d925973b38501.mp4",
@@ -21,6 +21,7 @@
     "static/media/denim.png": "/100jours/static/media/denim.31f9a4a8cf5aa924cd34.png",
     "static/media/ptitnoel.JPG": "/100jours/static/media/ptitnoel.39fbee406cb8ee20a534.JPG",
     "static/media/rire.mp4": "/100jours/static/media/rire.188d977719e552fcb955.mp4",
+    "static/media/diandra.jpg": "/100jours/static/media/diandra.b4af6ee601553762ab92.jpg",
     "static/media/agnain.gif": "/100jours/static/media/agnain.f3287345a398321e5716.gif",
     "static/media/manu.mp4": "/100jours/static/media/manu.589642bdc0d252fd8d18.mp4",
     "static/media/bertin.mp4": "/100jours/static/media/bertin.09fffe51179131df30df.mp4",
@@ -87,11 +88,11 @@
     "static/media/force.jpg": "/100jours/static/media/force.5bfe19df64993ad67b2b.jpg",
     "static/media/tout_pete.mp3": "/100jours/static/media/tout_pete.bae17ce7be79ec1fc6aa.mp3",
     "index.html": "/100jours/index.html",
-    "main.88f88b1c.css.map": "/100jours/static/css/main.88f88b1c.css.map",
-    "main.4ecfb940.js.map": "/100jours/static/js/main.4ecfb940.js.map"
+    "main.66f05b64.css.map": "/100jours/static/css/main.66f05b64.css.map",
+    "main.a3b8c43e.js.map": "/100jours/static/js/main.a3b8c43e.js.map"
   },
   "entrypoints": [
-    "static/css/main.88f88b1c.css",
-    "static/js/main.4ecfb940.js"
+    "static/css/main.66f05b64.css",
+    "static/js/main.a3b8c43e.js"
   ]
 }
